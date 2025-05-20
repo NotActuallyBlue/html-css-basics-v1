@@ -1,3 +1,16 @@
 body {
-    background-color: #e7d5ca;
+    background-color: #FCF3F0;
+}
+
+h1 {
+    color: #4676A9;
+}
+
+h2 {
+    color: #CC741B;
+}
+
+footer {
+    background-color: #24466C;
+    color: white;
 }
