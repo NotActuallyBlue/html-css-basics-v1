@@ -1,13 +1,23 @@
+header {
+    text-align: center;
+}
+
 body {
     background-color: #FCF3F0;
+    font-size: 1.25rem;
+    line-height: 1.6;
 }
 
 h1 {
     color: #4676A9;
+    text-align: center;
+    font-size: 10rem;
+    line-height: 1.1;
 }
 
 h2 {
     color: #CC741B;
+    font-size: 2.5rem;
 }
 
 footer {
