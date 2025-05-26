@@ -30,8 +30,18 @@ section {
 .teal-bg {
     color: white;
     padding: 20px;
-    border: solid #0b4a5a 5px;
+    border: solid #0b4a5a 10px;
     background-color: #087A98;
+}
+
+.climber-bg {
+    color: white;
+    padding: 24px;
+    border: solid #0b4a5a 10px;
+    background-image: url(../images/simple-steps.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 footer {
