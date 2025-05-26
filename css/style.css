@@ -20,12 +20,15 @@ h2 {
     font-size: 2.75rem;
 }
 
-p {
-
-}
-
 section {
     margin-block: 100px;
+}
+
+.teal-bg {
+    color: white;
+    padding: 10px;
+    border: solid #0b4a5a 5px;
+    background-color: #087A98;
 }
 
 footer {
