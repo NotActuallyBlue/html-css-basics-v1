@@ -19,8 +19,16 @@ h2 {
     font-size: 2.75rem;
 }
 
+ul li::marker {
+    content: '👉 ';
+}
+
 section {
     margin-block: 100px;
+}
+
+.wrapper {
+    
 }
 
 .teal-text {
