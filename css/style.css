@@ -20,13 +20,18 @@ h2 {
     font-size: 2.75rem;
 }
 
+p {
+
+}
+
 section {
-    margin-block: 175px;
+    margin-block: 150px;
 }
 
 footer {
-    padding: 15px;
+    padding: 10px;
     text-align: center;
     background-color: #24466C;
+    border: solid #6E84CF 5px;
     color: white;
 }
