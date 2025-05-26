@@ -9,7 +9,6 @@ body {
 }
 
 h1 {
-    color: #4676A9;
     text-align: center;
     font-size: 10rem;
     line-height: 1.1;
@@ -24,17 +23,17 @@ section {
     margin-block: 100px;
 }
 
+.teal-text {
+    color: #087a98;
+}
+
 .teal-bg {
     color: white;
-    padding: 10px;
+    padding: 20px;
     border: solid #0b4a5a 5px;
     background-color: #087A98;
 }
 
 footer {
-    padding: 10px;
     text-align: center;
-    background-color: #24466C;
-    border: solid #6E84CF 5px;
-    color: white;
 }
