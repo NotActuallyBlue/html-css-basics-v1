@@ -10,7 +10,7 @@ body {
 
 h1 {
     text-align: center;
-    font-size: 10rem;
+    font-size: 8rem;
     line-height: 1.1;
 }
 
@@ -27,8 +27,13 @@ section {
     margin-block: 100px;
 }
 
+img {
+    max-inline-size: 100%;
+}
+
 .wrapper {
-    
+    max-inline-size: 1000px;
+    margin-inline: auto;
 }
 
 .teal-text {
