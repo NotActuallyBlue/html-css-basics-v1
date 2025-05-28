@@ -50,6 +50,19 @@ header {
   color: rgb(22, 131, 255);
 }
 
+@keyframes rgbCycle {
+  0%   { color: rgb(25, 224, 255); }
+  20%  { color: rgb(11, 161, 255); }
+  40%  { color: rgb(0, 30, 255); }
+  60% { color: rgb(0, 30, 255); }
+  80% { color: rgb(11, 161, 255); }
+  100% { color: rgb(25, 224, 255); }
+}
+
+.primary-navigation a:hover {
+  animation: rgbCycle 1.5s linear infinite;
+}
+
 .primary-navigation ul li::marker {
   content: none;
 }
@@ -73,17 +86,14 @@ section {
   h1 {
     font-size: 7.5rem;
   }
+  .two-column-layout {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media (width < 600px) {
   h2 {
     text-align: center;
-  }
-}
-
-@media (width > 600px) {
-  .two-column-layout {
-    grid-template-columns: 1fr 1fr;
   }
 }
 
