@@ -42,6 +42,13 @@ header {
   padding: 0;
 }
 
+.primary-navigation a {
+  font-style: italic;
+  text-decoration: none;
+  font-weight: 600;
+  color: rgb(22, 131, 255);
+}
+
 .primary-navigation ul li::marker {
   content: none;
 }
@@ -60,6 +67,15 @@ section {
   display: grid;
   gap: 60px;
   grid-template-columns: 1fr 1fr;
+}
+
+.two-column-layout img {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+@media (width > 600px) {
+  
 }
 
 /* ========== Utility Classes ========== */
